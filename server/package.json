@@ -1,0 +1,24 @@
+{
+  "name": "ai-resume-roaster-backend",
+  "version": "1.0.0",
+  "description": "API for AI Resume Roaster",
+  "type": "module",
+  "main": "server.js",
+  "engines": {
+    "node": ">=16.14.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.71.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
+    "express": "^4.21.2",
+    "node-fetch": "^3.3.2"
+  }
+}
